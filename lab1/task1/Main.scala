@@ -1,5 +1,6 @@
 package se.kth.spark.lab1.task1
 
+
 import breeze.linalg.max
 import se.kth.spark.lab1._
 import org.apache.spark.ml.feature.RegexTokenizer
