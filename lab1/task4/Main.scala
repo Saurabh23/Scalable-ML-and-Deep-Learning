@@ -1,5 +1,6 @@
 package se.kth.spark.lab1.task4
 
+
 import org.apache.spark._
 import org.apache.spark.ml.evaluation.RegressionEvaluator
 import org.apache.spark.sql.{DataFrame, SQLContext}
