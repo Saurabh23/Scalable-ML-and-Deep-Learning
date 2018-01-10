@@ -17,6 +17,7 @@ class Vector2DoubleUDF(override val uid: String, val udf: Vector => Double)
     DoubleType
   }
 
+    
   override def copy(extra: ParamMap): Vector2DoubleUDF = {
     new Vector2DoubleUDF(udf).setInputCol(getInputCol).setOutputCol(getOutputCol)
   }
